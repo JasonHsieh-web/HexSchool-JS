@@ -1,0 +1,219 @@
+
+
+ @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700,900&display=swap');
+        
+ *{
+                margin: 0;
+                padding: 0;
+                list-style: none; 
+                font-family: 'Noto Sans TC', sans-serif;
+                
+            }
+            .banner{
+                width: 1024px;
+                height: 300px;
+                margin: auto;
+               background-color: #424242;
+
+              
+            }
+            .container{
+                 width: 100%;
+                
+            }
+            .item{
+                display: flex;
+                flex-direction: row;
+    
+                                   }
+             .item .pic{
+                 margin: 92px 0;
+                 margin-left: 173px;
+             }
+             .item .txt p{
+                 font-size: 18px;
+                 color: #FFD366;
+                 
+             }
+             .item .txt{
+                     margin-top: 74px;
+                     margin-left: 100px;
+             }
+             .item .txt input {
+                 color: #fff;
+                 font-size: 22px;
+                 background-color: transparent;
+                 border:2px solid #FFD366;
+                 width: 250px;
+                 height: 40px;
+                 border-radius: 10px;
+             }
+             .item .txt input:focus{
+                 outline: none;
+             }
+             .item .txt .hight {
+                 margin-bottom: 15px;
+             }
+
+             .item .origin{
+                  color: #424242;
+                  background-color: #FFD366;
+                  border: none;
+                  border-radius: 100px;
+                  width: 120px;
+                  height: 120px;
+                  margin: 92px 0 88px 100px;
+                  font-size: 24px;
+              }   
+              .item .origin:focus{
+                  outline: none;
+              }
+              .item .origin:hover{
+                 cursor: pointer;
+                 box-shadow: 0 0 5px 1px #FFC432;
+                
+              }
+              .item .origin:active{
+                  background-color: #DEA821;
+              }
+              h2{
+                 text-align: center;
+                  font-size: 36px;
+                  padding: 20px 0;
+                  color: #424242;
+              }
+              .content{
+                  background-color: #d6d6d6;
+                  margin: 0px auto;
+                 width: 1024px;
+                 padding: 20px 0;
+              }
+              .content .list li {/*下方新增LI的樣式*/
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-around;
+                  margin: 0px 0px 20px 200px;
+                  width: 624px;
+                  height: 62px;
+                  border-left-width:8px;
+                  border-left-style: solid;
+                  font-size: 20px;
+                  background-color: #fff;
+                  text-align: center;                         
+              }
+              .content .list li a{
+                 color: #ff8080;
+                 text-decoration: none;
+                
+              }
+              /*設置LI邊框線*/
+               .blue{
+                 border-color:  #31BAF9 ;
+               }
+               .green{
+                 border-color: #86D73F;
+               }
+               .orange{
+                 border-color: #FF982D;
+               }
+               .juicy{
+                 border-color: #FF6C03 ;
+               }
+               .red{
+                 border-color: #FF1200;
+               }
+               /*狀態顏色 字體顏色*/
+               .Status_blue,.BMIColor_blue,.BMITxt_blue{
+                   color: #31BAF9;
+               }
+               .Status_green,.BMIColor_green,.BMITxt_green{
+                   color:#86D73F ;
+               }
+               .Status_orange,.BMIColor_orange,.BMITxt_orange{
+                color: #FF982D;
+               }
+               .Status_juicy,.BMIColor_juicy,.BMITxt_juicy{
+                   color:#FF6C03 ;
+               }
+               .Status_red,.BMIColor_red,.BMITxt_red{
+                 color: #FF1200;
+               }
+
+               /*LOOP背景色*/
+               .loop_blue{
+                  background: #31BAF9;
+               }
+               .loop_green{
+                 background:#86D73F ;
+               }
+               .loop_orange{
+                 background: #FF982D;
+               }
+               .loop_juicy{
+                 background:#FF6C03 ;
+               }
+               .loop_red{
+                 background: #FF1200;
+               }
+
+               .footer{
+                   width: 1024px;
+                   background-color:#FFD366;
+                   margin: auto;
+                   display: flex;
+                   justify-content: center;
+                   padding: 17px 0;
+               }
+               .footer .logo{
+                   width: 55px;
+                   height: 55px;
+
+               }
+               .footer .logo img{
+                   color: black;
+                   width: 100%;
+               }
+               .Btn_hide{
+                   display: none;
+               }
+               .changeBtn{/*BMI結果樣式*/
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   align-items: center;
+                   cursor: pointer;
+                   width: 123px;
+                   height: 123px;
+                   margin: 92px 0 88px 100px; ;
+                   border-radius: 100px;
+                   border-width: 6px;
+                   border-style: solid;
+                   position: relative;
+               }
+               .BMIShow{ /*結果BMI*/
+                   font-size: 32px;
+               }
+               .LOOP{
+                   background-image: url("../pic/icons_loop.png");
+                   background-repeat:no-repeat;
+                   background-position: center;
+                   width: 30px;
+                   height: 30px;
+                   position: absolute;
+                   top: 90px;
+                     left: 90px ;
+                     border: 3px solid #424242;
+                     border-radius: 50%;
+               }
+               
+                #showStatus{
+                    font-size: 26px;
+                    position: absolute;
+                    top: 40px;
+                 right: -110px;
+                 text-align: center;
+                }
+                span{
+                    font-size: 12px;
+                    margin-right: -50px;
+                }

@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700,900&display=swap');
+ 
+ *{
+                margin: 0;
+                padding: 0;
+                list-style: none; 
+                font-family: 'Noto Sans TC', sans-serif;
+            }
+
+    .banner{
+        width: 100%;
+    }
+    .banner .banner-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 1024px;
+        height: 380px;
+        margin: auto;
+        background: url("../pic/Hero.png");
+        
+    }
+    .banner-item h2 {
+        color: #fff;
+        font-size: 40px;
+       
+       letter-spacing: 3px;
+    }
+    .banner-item select{
+        font-size: 18px;
+        width: 452px;
+        height: 48px;
+        background: rgba(255,255,255,0.70);
+        border: 3px solid #FFFFFF;
+        border-radius: 3px;
+        margin-top: -150px;
+
+    }
+
+/*--------------------------------------------*/
+
+.hotView{
+    width: 100%;
+}
+.hotView-item{
+    box-sizing: border-box;
+    margin: -40px auto 0px auto;
+    width: 800px;
+    height: 112px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px;
+}
+.hotView-item h2{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 18px;
+   
+}
+.hotView-item .hot-btn {
+    margin-left: 36px;
+}
+.hotView-item .hot-btn button{
+    width: 130px;
+    height: 42px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin: 0px 15px;
+}
+.hotView-item .hot-btn button:focus{
+    outline: none;
+}
+.hot1{
+    background: #8A82CC;
+}
+.hot2{
+    background: #FFA782;
+}
+.hot3{
+    background: #F5D005;
+}
+.hot4{
+    background: #559AC8;
+}
+
+
+/*--------------------------------------------*/
+
+
+.line{
+    width: 900px;;
+    margin: 50px auto;
+    border-top:  1px dotted #559AC8;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+    
+}
+.down{
+
+    
+    width: 20px ;
+    height: 20px;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 4px;
+    position: absolute;
+    top: -15px;
+    
+    
+}
+.down img{
+    width: 100%;
+}
+
+/*--------------------------------------------*/
+
+.Zn{
+    text-align: center;
+    font-size: 36px;
+    color: #8A82CC;
+    margin-bottom:50px ;
+}
+
+.spot{
+    width: 1200px;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+  justify-content: center;
+  align-items: center;
+}
+.singleSpot{
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.50);
+    margin: 20px;
+}
+.singleSpot .spot-pic{
+    box-sizing: border-box;
+    height: 155px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.singleSpot .spot-pic .spot-txt{
+ box-sizing: border-box;
+width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ color: #fff;
+ position: absolute;
+ bottom: 0;
+ padding:0 20px ;
+
+}
+.spot-name{
+    font-size: 24px;
+}
+.spot-zone{
+    font-size: 19px;
+}
+
+
+.singleSpot .Info{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+.spot .singleSpot .Info .Info-List{
+    
+    padding: 15px;
+    position: relative;
+}
+.spot .singleSpot .Info .Info-List li:last-child{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.spot .singleSpot .Info .Info-List li:nth-child(3){
+    margin-left: 3px;
+}
+.singleSpot .Info .Info-List li{
+    padding: 5px 0;
+}
+
+.singleSpot .Info .Info-List li img{
+    padding-right: 10px;
+}
+
+ .singleSpot:last-child{
+     position: relative;
+ }
+
+
+/*--------------------------------------------*/
+.footer{
+    width: 100%;
+    background: #559AC8;
+}
+.footer p{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+
+/*--------------------------------------------*/
+
+.goTop{
+    position: fixed;
+    right: 100px;
+    bottom: 200px;
+  
+   
+}
+
